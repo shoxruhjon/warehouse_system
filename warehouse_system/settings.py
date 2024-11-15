@@ -25,6 +25,9 @@ INSTALLED_APPS = [
 
 #   Packages
     'rest_framework',
+
+#     apps
+    'feedstock.apps.FeedstockConfig',
 ]
 
 MIDDLEWARE = [
