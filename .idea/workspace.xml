@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be0ce4df-9bd0-4fbd-ae38-0732260a3875" name="Changes" comment="" />
+    <list default="true" id="be0ce4df-9bd0-4fbd-ae38-0732260a3875" name="Changes" comment="Create feedstock app">
+      <change afterPath="$PROJECT_DIR$/feedstock/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedstock/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedstock/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedstock/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedstock/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedstock/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedstock/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedstock/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse_system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse_system/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +23,13 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +43,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/shoxruhjon/warehouse_system.git&quot;,
-    &quot;accountId&quot;: &quot;4839422e-8871-4d1a-abea-98db846a38f2&quot;
+    &quot;accountId&quot;: &quot;d9f64b05-5986-4a11-b677-de989dd23246&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -39,17 +60,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Django Server.warehouse_system.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "<unknown>",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
 }]]></component>
   <component name="RunManager">
@@ -81,8 +108,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
-        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -95,11 +122,51 @@
       <option name="presentableId" value="Default" />
       <updated>1731643440506</updated>
       <workItem from="1731643441867" duration="659000" />
-      <workItem from="1731644115260" duration="665000" />
+      <workItem from="1731644115260" duration="2208000" />
+      <workItem from="1731662966651" duration="12288000" />
+      <workItem from="1731903772049" duration="278000" />
+      <workItem from="1731905958647" duration="327000" />
+      <workItem from="1731906298834" duration="544000" />
+      <workItem from="1731906865647" duration="138000" />
+      <workItem from="1731907012909" duration="62000" />
+      <workItem from="1731907091468" duration="79000" />
     </task>
+    <task id="LOCAL-00001" summary="Init project">
+      <option name="closed" value="true" />
+      <created>1731645172432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731645172432</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create feedstock app">
+      <option name="closed" value="true" />
+      <created>1731646328924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731646328924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init project" />
+    <MESSAGE value="Create feedstock app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create feedstock app" />
   </component>
 </project>
