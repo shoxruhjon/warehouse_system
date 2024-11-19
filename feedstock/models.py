@@ -44,4 +44,4 @@ class Warehouse(models.Model):
     )
     material_id = models.ForeignKey(Material, on_delete=models.CASCADE)
     remainder = models.IntegerField()
-    price = models.DecimalField(max_digits=5, decimal_places=2)
+    price = models.DecimalField(max_digits=20, decimal_places=0)
